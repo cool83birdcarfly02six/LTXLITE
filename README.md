@@ -55,6 +55,20 @@ local TextLabel_16 = Instance.new("TextLabel")
 local TextButton_3 = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local TextLabel_17 = Instance.new("TextLabel")
+local Obbybutonbike = Instance.new("Frame")
+local Frame_4 = Instance.new("ImageLabel")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_22 = Instance.new("TextLabel")
 local Close = Instance.new("ImageButton")
 
 --Properties:
@@ -139,7 +153,7 @@ Games.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Games.BorderSizePixel = 0
 Games.Position = UDim2.new(0, 0, 0.25, 0)
 Games.Size = UDim2.new(0, 436, 0, 183)
-Games.CanvasPosition = Vector2.new(0, 150)
+Games.CanvasPosition = Vector2.new(0, 305)
 Games.ScrollBarThickness = 0
 
 _99FailImpossibleObby.Name = "99% Fail Impossible Obby!"
@@ -169,7 +183,7 @@ ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_2.BorderSizePixel = 0
 ImageLabel_2.Position = UDim2.new(-1.5853287e-07, 0, 0, 0)
 ImageLabel_2.Rotation = 180.000
-ImageLabel_2.Size = UDim2.new(0, 385, 0, 86)
+ImageLabel_2.Size = UDim2.new(0, 386, 0, 86)
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=13822374675"
 ImageLabel_2.ImageColor3 = Color3.fromRGB(37, 57, 86)
 ImageLabel_2.ImageTransparency = 0.230
@@ -309,7 +323,7 @@ ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel_5.BorderSizePixel = 0
 ImageLabel_5.Position = UDim2.new(-1.5853287e-07, 0, 0, 0)
 ImageLabel_5.Rotation = 180.000
-ImageLabel_5.Size = UDim2.new(0, 385, 0, 86)
+ImageLabel_5.Size = UDim2.new(0, 386, 0, 86)
 ImageLabel_5.Image = "http://www.roblox.com/asset/?id=13822374675"
 ImageLabel_5.ImageColor3 = Color3.fromRGB(37, 57, 86)
 ImageLabel_5.ImageTransparency = 0.230
@@ -554,6 +568,142 @@ TextLabel_17.TextColor3 = Color3.fromRGB(102, 102, 102)
 TextLabel_17.TextSize = 14.000
 TextLabel_17.TextWrapped = true
 
+Obbybutonbike.Name = "Obbybutonbike"
+Obbybutonbike.Parent = Games
+Obbybutonbike.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Obbybutonbike.BackgroundTransparency = 1.000
+Obbybutonbike.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Obbybutonbike.BorderSizePixel = 0
+Obbybutonbike.Size = UDim2.new(0, 436, 0, 97)
+
+Frame_4.Name = "Frame"
+Frame_4.Parent = Obbybutonbike
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0550458729, 0, 0.0578411929, 0)
+Frame_4.Size = UDim2.new(0, 385, 0, 85)
+Frame_4.Image = "http://www.roblox.com/asset/?id=15494746868"
+Frame_4.ImageTransparency = 0.170
+Frame_4.ScaleType = Enum.ScaleType.Crop
+
+ImageLabel_11.Parent = Frame_4
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(-1.5853287e-07, 0, 0, 0)
+ImageLabel_11.Rotation = 180.000
+ImageLabel_11.Size = UDim2.new(0, 386, 0, 86)
+ImageLabel_11.Image = "http://www.roblox.com/asset/?id=13822374675"
+ImageLabel_11.ImageColor3 = Color3.fromRGB(37, 57, 86)
+ImageLabel_11.ImageTransparency = 0.230
+
+UICorner_11.CornerRadius = UDim.new(0, 6)
+UICorner_11.Parent = ImageLabel_11
+
+UICorner_12.CornerRadius = UDim.new(0, 6)
+UICorner_12.Parent = Frame_4
+
+ImageLabel_12.Parent = Frame_4
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(0.438961029, 0, 0.129411772, 0)
+ImageLabel_12.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_12.Image = "http://www.roblox.com/asset/?id=15441892162"
+ImageLabel_12.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_18.Parent = ImageLabel_12
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_18.Font = Enum.Font.SourceSansBold
+TextLabel_18.Text = "Last Updated:"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_19.Parent = ImageLabel_12
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_19.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_19.Font = Enum.Font.SourceSansBold
+TextLabel_19.Text = "29/11/23"
+TextLabel_19.TextColor3 = Color3.fromRGB(85, 170, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_13.Parent = Frame_4
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_13.BackgroundTransparency = 1.000
+ImageLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BorderSizePixel = 0
+ImageLabel_13.Position = UDim2.new(0.722077906, 0, 0.129411772, 0)
+ImageLabel_13.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_13.Image = "http://www.roblox.com/asset/?id=15441916708"
+ImageLabel_13.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_20.Parent = ImageLabel_13
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_20.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = "Status:"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_21.Parent = ImageLabel_13
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_21.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_21.Font = Enum.Font.SourceSansBold
+TextLabel_21.Text = "Working"
+TextLabel_21.TextColor3 = Color3.fromRGB(85, 255, 0)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_4.Parent = Frame_4
+TextButton_4.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.438961029, 0, 0.552941203, 0)
+TextButton_4.Size = UDim2.new(0, 208, 0, 27)
+TextButton_4.Font = Enum.Font.SourceSansBold
+TextButton_4.Text = "Load Script"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+UICorner_13.Parent = TextButton_4
+
+TextLabel_22.Parent = Obbybutonbike
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.103211008, 0, 0.237113401, 0)
+TextLabel_22.Size = UDim2.new(0, 122, 0, 50)
+TextLabel_22.Font = Enum.Font.SourceSansBold
+TextLabel_22.Text = "Obby But You're on a Bike "
+TextLabel_22.TextColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+
 Close.Name = "Close"
 Close.Parent = BACKGROUND
 Close.Active = false
@@ -566,7 +716,7 @@ Close.Image = "http://www.roblox.com/asset/?id=12707060750"
 
 -- Scripts:
 
-local function SNAUCN_fake_script() -- TextButton.LocalScript 
+local function JDXWME_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -579,8 +729,8 @@ local function SNAUCN_fake_script() -- TextButton.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(SNAUCN_fake_script)()
-local function PIEC_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JDXWME_fake_script)()
+local function YUYMNGO_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -593,8 +743,8 @@ local function PIEC_fake_script() -- TextButton_2.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(PIEC_fake_script)()
-local function VULL_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(YUYMNGO_fake_script)()
+local function LOAY_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -607,8 +757,22 @@ local function VULL_fake_script() -- TextButton_3.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(VULL_fake_script)()
-local function BZVQHW_fake_script() -- Close.LocalScript 
+coroutine.wrap(LOAY_fake_script)()
+local function SVEICPK_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet(('https://paste.ee/r/9k02Q'),true))()
+		
+	
+		GameLITEChooser:Destroy()
+	
+		GameLITEChooser:deleteTimeout(2)
+	end)
+end
+coroutine.wrap(SVEICPK_fake_script)()
+local function GFWYDZ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -619,4 +783,4 @@ local function BZVQHW_fake_script() -- Close.LocalScript
 	
 	end)
 end
-coroutine.wrap(BZVQHW_fake_script)()
+coroutine.wrap(GFWYDZ_fake_script)()
