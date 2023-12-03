@@ -69,6 +69,20 @@ local TextLabel_21 = Instance.new("TextLabel")
 local TextButton_4 = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local TextLabel_22 = Instance.new("TextLabel")
+local PowerSlapSimulator = Instance.new("Frame")
+local Frame_5 = Instance.new("ImageLabel")
+local ImageLabel_14 = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+local ImageLabel_15 = Instance.new("ImageLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local ImageLabel_16 = Instance.new("ImageLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_27 = Instance.new("TextLabel")
 local Close = Instance.new("ImageButton")
 
 --Properties:
@@ -704,6 +718,142 @@ TextLabel_22.TextColor3 = Color3.fromRGB(102, 102, 102)
 TextLabel_22.TextSize = 14.000
 TextLabel_22.TextWrapped = true
 
+PowerSlapSimulator.Name = "PowerSlapSimulator"
+PowerSlapSimulator.Parent = Games
+PowerSlapSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PowerSlapSimulator.BackgroundTransparency = 1.000
+PowerSlapSimulator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PowerSlapSimulator.BorderSizePixel = 0
+PowerSlapSimulator.Size = UDim2.new(0, 436, 0, 97)
+
+Frame_5.Name = "Frame"
+Frame_5.Parent = PowerSlapSimulator
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.0550458729, 0, 0.0578411929, 0)
+Frame_5.Size = UDim2.new(0, 385, 0, 85)
+Frame_5.Image = "http://www.roblox.com/asset/?id=15535815232"
+Frame_5.ImageTransparency = 0.170
+Frame_5.ScaleType = Enum.ScaleType.Crop
+
+ImageLabel_14.Parent = Frame_5
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_14.BackgroundTransparency = 1.000
+ImageLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_14.BorderSizePixel = 0
+ImageLabel_14.Position = UDim2.new(-1.5853287e-07, 0, 0, 0)
+ImageLabel_14.Rotation = 180.000
+ImageLabel_14.Size = UDim2.new(0, 386, 0, 86)
+ImageLabel_14.Image = "http://www.roblox.com/asset/?id=13822374675"
+ImageLabel_14.ImageColor3 = Color3.fromRGB(37, 57, 86)
+ImageLabel_14.ImageTransparency = 0.230
+
+UICorner_14.CornerRadius = UDim.new(0, 6)
+UICorner_14.Parent = ImageLabel_14
+
+UICorner_15.CornerRadius = UDim.new(0, 6)
+UICorner_15.Parent = Frame_5
+
+ImageLabel_15.Parent = Frame_5
+ImageLabel_15.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_15.BackgroundTransparency = 1.000
+ImageLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_15.BorderSizePixel = 0
+ImageLabel_15.Position = UDim2.new(0.438961029, 0, 0.129411772, 0)
+ImageLabel_15.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_15.Image = "http://www.roblox.com/asset/?id=15441892162"
+ImageLabel_15.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_23.Parent = ImageLabel_15
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_23.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_23.Font = Enum.Font.SourceSansBold
+TextLabel_23.Text = "Last Updated:"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_24.Parent = ImageLabel_15
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_24.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_24.Font = Enum.Font.SourceSansBold
+TextLabel_24.Text = "03/12/23"
+TextLabel_24.TextColor3 = Color3.fromRGB(85, 170, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_16.Parent = Frame_5
+ImageLabel_16.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_16.BackgroundTransparency = 1.000
+ImageLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_16.BorderSizePixel = 0
+ImageLabel_16.Position = UDim2.new(0.722077906, 0, 0.129411772, 0)
+ImageLabel_16.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_16.Image = "http://www.roblox.com/asset/?id=15441916708"
+ImageLabel_16.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_25.Parent = ImageLabel_16
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_25.Font = Enum.Font.SourceSansBold
+TextLabel_25.Text = "Status:"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_26.Parent = ImageLabel_16
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_26.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_26.Font = Enum.Font.SourceSansBold
+TextLabel_26.Text = "Working"
+TextLabel_26.TextColor3 = Color3.fromRGB(85, 255, 0)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_5.Parent = Frame_5
+TextButton_5.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.438961029, 0, 0.552941203, 0)
+TextButton_5.Size = UDim2.new(0, 208, 0, 27)
+TextButton_5.Font = Enum.Font.SourceSansBold
+TextButton_5.Text = "Load Script"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+UICorner_16.Parent = TextButton_5
+
+TextLabel_27.Parent = PowerSlapSimulator
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.103211008, 0, 0.237113401, 0)
+TextLabel_27.Size = UDim2.new(0, 122, 0, 50)
+TextLabel_27.Font = Enum.Font.SourceSansBold
+TextLabel_27.Text = "Power Slap Simulator"
+TextLabel_27.TextColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
 Close.Name = "Close"
 Close.Parent = BACKGROUND
 Close.Active = false
@@ -716,7 +866,7 @@ Close.Image = "http://www.roblox.com/asset/?id=12707060750"
 
 -- Scripts:
 
-local function JDXWME_fake_script() -- TextButton.LocalScript 
+local function XVEV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -729,8 +879,8 @@ local function JDXWME_fake_script() -- TextButton.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(JDXWME_fake_script)()
-local function YUYMNGO_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XVEV_fake_script)()
+local function RRELA_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -743,8 +893,8 @@ local function YUYMNGO_fake_script() -- TextButton_2.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(YUYMNGO_fake_script)()
-local function LOAY_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(RRELA_fake_script)()
+local function UAJLKZ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -757,8 +907,8 @@ local function LOAY_fake_script() -- TextButton_3.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(LOAY_fake_script)()
-local function SVEICPK_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(UAJLKZ_fake_script)()
+local function YQQZ_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -771,8 +921,22 @@ local function SVEICPK_fake_script() -- TextButton_4.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(SVEICPK_fake_script)()
-local function GFWYDZ_fake_script() -- Close.LocalScript 
+coroutine.wrap(YQQZ_fake_script)()
+local function WMOBGSL_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet(('https://paste.ee/r/lM5Gi'),true))()
+		
+	
+		GameLITEChooser:Destroy()
+	
+		GameLITEChooser:deleteTimeout(2)
+	end)
+end
+coroutine.wrap(WMOBGSL_fake_script)()
+local function SBPJZPU_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -783,4 +947,4 @@ local function GFWYDZ_fake_script() -- Close.LocalScript
 	
 	end)
 end
-coroutine.wrap(GFWYDZ_fake_script)()
+coroutine.wrap(SBPJZPU_fake_script)()
