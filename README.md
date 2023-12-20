@@ -111,6 +111,20 @@ local TextLabel_36 = Instance.new("TextLabel")
 local TextButton_7 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
 local TextLabel_37 = Instance.new("TextLabel")
+local RunStarSimulator_2 = Instance.new("Frame")
+local Frame_8 = Instance.new("ImageLabel")
+local ImageLabel_23 = Instance.new("ImageLabel")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local ImageLabel_24 = Instance.new("ImageLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local TextLabel_39 = Instance.new("TextLabel")
+local ImageLabel_25 = Instance.new("ImageLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_42 = Instance.new("TextLabel")
 local Close = Instance.new("ImageButton")
 
 --Properties:
@@ -195,7 +209,8 @@ Games.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Games.BorderSizePixel = 0
 Games.Position = UDim2.new(0, 0, 0.25, 0)
 Games.Size = UDim2.new(0, 436, 0, 183)
-Games.CanvasSize = UDim2.new(0, 0, 2, 200)
+Games.CanvasPosition = Vector2.new(0, 605)
+Games.CanvasSize = UDim2.new(0, 0, 2, 300)
 Games.ScrollBarThickness = 0
 
 _99FailImpossibleObby.Name = "99% Fail Impossible Obby!"
@@ -1154,6 +1169,142 @@ TextLabel_37.TextColor3 = Color3.fromRGB(102, 102, 102)
 TextLabel_37.TextSize = 14.000
 TextLabel_37.TextWrapped = true
 
+RunStarSimulator_2.Name = "RunStar Simulator"
+RunStarSimulator_2.Parent = Games
+RunStarSimulator_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RunStarSimulator_2.BackgroundTransparency = 1.000
+RunStarSimulator_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RunStarSimulator_2.BorderSizePixel = 0
+RunStarSimulator_2.Size = UDim2.new(0, 436, 0, 97)
+
+Frame_8.Name = "Frame"
+Frame_8.Parent = RunStarSimulator_2
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.0550458729, 0, 0.0578411929, 0)
+Frame_8.Size = UDim2.new(0, 385, 0, 85)
+Frame_8.Image = "http://www.roblox.com/asset/?id=15694730459"
+Frame_8.ImageTransparency = 0.170
+Frame_8.ScaleType = Enum.ScaleType.Crop
+
+ImageLabel_23.Parent = Frame_8
+ImageLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_23.BackgroundTransparency = 1.000
+ImageLabel_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_23.BorderSizePixel = 0
+ImageLabel_23.Position = UDim2.new(-1.5853287e-07, 0, 0, 0)
+ImageLabel_23.Rotation = 180.000
+ImageLabel_23.Size = UDim2.new(0, 386, 0, 86)
+ImageLabel_23.Image = "http://www.roblox.com/asset/?id=13822374675"
+ImageLabel_23.ImageColor3 = Color3.fromRGB(37, 57, 86)
+ImageLabel_23.ImageTransparency = 0.230
+
+UICorner_23.CornerRadius = UDim.new(0, 6)
+UICorner_23.Parent = ImageLabel_23
+
+UICorner_24.CornerRadius = UDim.new(0, 6)
+UICorner_24.Parent = Frame_8
+
+ImageLabel_24.Parent = Frame_8
+ImageLabel_24.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_24.BackgroundTransparency = 1.000
+ImageLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_24.BorderSizePixel = 0
+ImageLabel_24.Position = UDim2.new(0.438961029, 0, 0.129411772, 0)
+ImageLabel_24.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_24.Image = "http://www.roblox.com/asset/?id=15441892162"
+ImageLabel_24.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_38.Parent = ImageLabel_24
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_38.BorderSizePixel = 0
+TextLabel_38.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_38.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_38.Font = Enum.Font.SourceSansBold
+TextLabel_38.Text = "Last Updated:"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 14.000
+TextLabel_38.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_39.Parent = ImageLabel_24
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_39.BorderSizePixel = 0
+TextLabel_39.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_39.Size = UDim2.new(0, 83, 0, 14)
+TextLabel_39.Font = Enum.Font.SourceSansBold
+TextLabel_39.Text = "20/12/23"
+TextLabel_39.TextColor3 = Color3.fromRGB(85, 170, 255)
+TextLabel_39.TextSize = 14.000
+TextLabel_39.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_25.Parent = Frame_8
+ImageLabel_25.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+ImageLabel_25.BackgroundTransparency = 1.000
+ImageLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_25.BorderSizePixel = 0
+ImageLabel_25.Position = UDim2.new(0.722077906, 0, 0.129411772, 0)
+ImageLabel_25.Size = UDim2.new(0, 30, 0, 30)
+ImageLabel_25.Image = "http://www.roblox.com/asset/?id=15441916708"
+ImageLabel_25.ImageColor3 = Color3.fromRGB(85, 170, 255)
+
+TextLabel_40.Parent = ImageLabel_25
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_40.BorderSizePixel = 0
+TextLabel_40.Position = UDim2.new(0.966668725, 0, 0, 0)
+TextLabel_40.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_40.Font = Enum.Font.SourceSansBold
+TextLabel_40.Text = "Status:"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 14.000
+TextLabel_40.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_41.Parent = ImageLabel_25
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_41.BorderSizePixel = 0
+TextLabel_41.Position = UDim2.new(0.966668725, 0, 0.533333361, 0)
+TextLabel_41.Size = UDim2.new(0, 77, 0, 14)
+TextLabel_41.Font = Enum.Font.SourceSansBold
+TextLabel_41.Text = "Working"
+TextLabel_41.TextColor3 = Color3.fromRGB(85, 255, 0)
+TextLabel_41.TextSize = 14.000
+TextLabel_41.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_8.Parent = Frame_8
+TextButton_8.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.438961029, 0, 0.552941203, 0)
+TextButton_8.Size = UDim2.new(0, 208, 0, 27)
+TextButton_8.Font = Enum.Font.SourceSansBold
+TextButton_8.Text = "Load Script"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+UICorner_25.Parent = TextButton_8
+
+TextLabel_42.Parent = RunStarSimulator_2
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_42.BorderSizePixel = 0
+TextLabel_42.Position = UDim2.new(0.103211008, 0, 0.237113401, 0)
+TextLabel_42.Size = UDim2.new(0, 122, 0, 50)
+TextLabel_42.Font = Enum.Font.SourceSansBold
+TextLabel_42.Text = "Shoot Players Off A Map Simulator"
+TextLabel_42.TextColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_42.TextSize = 14.000
+TextLabel_42.TextWrapped = true
+
 Close.Name = "Close"
 Close.Parent = BACKGROUND
 Close.Active = false
@@ -1166,7 +1317,7 @@ Close.Image = "http://www.roblox.com/asset/?id=12707060750"
 
 -- Scripts:
 
-local function RUSD_fake_script() -- TextButton.LocalScript 
+local function QGUZFAA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1179,8 +1330,8 @@ local function RUSD_fake_script() -- TextButton.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(RUSD_fake_script)()
-local function EYMUK_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QGUZFAA_fake_script)()
+local function MRHLHI_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1193,8 +1344,8 @@ local function EYMUK_fake_script() -- TextButton_2.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(EYMUK_fake_script)()
-local function MDFHQC_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(MRHLHI_fake_script)()
+local function VNESG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1207,8 +1358,8 @@ local function MDFHQC_fake_script() -- TextButton_3.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(MDFHQC_fake_script)()
-local function IXXM_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(VNESG_fake_script)()
+local function CXEB_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1221,8 +1372,8 @@ local function IXXM_fake_script() -- TextButton_4.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(IXXM_fake_script)()
-local function EURG_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(CXEB_fake_script)()
+local function TWVLE_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1235,8 +1386,8 @@ local function EURG_fake_script() -- TextButton_5.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(EURG_fake_script)()
-local function OQYXUE_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(TWVLE_fake_script)()
+local function KRSF_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1249,8 +1400,8 @@ local function OQYXUE_fake_script() -- TextButton_6.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(OQYXUE_fake_script)()
-local function CUGMQK_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(KRSF_fake_script)()
+local function FPIZ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1263,8 +1414,22 @@ local function CUGMQK_fake_script() -- TextButton_7.LocalScript
 		GameLITEChooser:deleteTimeout(2)
 	end)
 end
-coroutine.wrap(CUGMQK_fake_script)()
-local function JNHPMNI_fake_script() -- Close.LocalScript 
+coroutine.wrap(FPIZ_fake_script)()
+local function YTGCKMW_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Down:connect(function()
+		
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Shoot-People-Off-A-Map-Simulator/main/README.md'),true))()
+		
+	
+		GameLITEChooser:Destroy()
+	
+		GameLITEChooser:deleteTimeout(2)
+	end)
+end
+coroutine.wrap(YTGCKMW_fake_script)()
+local function IBXDHUH_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1275,4 +1440,4 @@ local function JNHPMNI_fake_script() -- Close.LocalScript
 	
 	end)
 end
-coroutine.wrap(JNHPMNI_fake_script)()
+coroutine.wrap(IBXDHUH_fake_script)()
